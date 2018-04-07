@@ -18,7 +18,6 @@ res.saveAsTextFile("/FileStore/tables/outputQue12.txt")
 //res.take(10).foreach{println}
 
 
-
 //---------------------------------------- FOR TWO PARTICULAR USERS --------------------------------------------------------------------
 
 
