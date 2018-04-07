@@ -23,3 +23,4 @@ val userMap = userdata.map(line => (line(0), List(line(1),line(2),line(3))))
 val detail = sc.parallelize(sortedData.map(line=>(line._2+"\t"+userMap.lookup(line._1._1)(0).mkString("\t")+"\t"+userMap.lookup(line._1._2)(0).mkString("\t"))));
 detail.take(10).foreach{println}
 detail.saveAsTextFile("/FileStore/tables/outputQue2.txt")
+
