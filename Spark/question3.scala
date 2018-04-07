@@ -28,4 +28,4 @@ val actionThrillQuery = sqlContext.sql("select movieId,avg(rating) from ratingsT
 actionThrillQuery.show();
 
 //val selectNameAndAge = data.select("userID","movieID");
-//selectNameAndAge.show();
+//selectNameAndAge.show(); 
