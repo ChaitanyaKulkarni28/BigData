@@ -19,8 +19,8 @@ import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.GenericOptionsParser;
-
 import com.google.common.collect.Multiset.Entry;
+
 public class TopTenFriends {
 	
 	public static class Map1 extends Mapper<LongWritable, Text, Text, Text> {
